@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import { ReactComponent as DownArrow } from "../../assets/icons/dropdown_black.svg"
-import { ReactComponent as DownArrowW } from "../../assets/icons/dropdown_white.svg"
 import { ReactComponent as WhatsappIcon } from "../../assets/icons/whatsapp.svg"
 import { ReactComponent as GlobalIcon } from "../../assets/icons/global_eng.svg"
 import { ReactComponent as SearchIcon } from "../../assets/icons/search.svg"

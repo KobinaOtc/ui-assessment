@@ -1,0 +1,65 @@
+@import "../../colors";
+
+.home-carousel {
+  color: white;
+  height: 400px;
+  margin: auto;
+  width: 1432px;
+  background: linear-gradient(to right, #111112 0%, rgba(17, 17, 18, 0) 100%), url("../../../images/hero_img_1.svg") no-repeat top center;
+  overflow: hidden;
+
+  .title {
+    font-family: 'Montserrat-Bold';
+    font-size: 40px;
+    text-align: left;
+    padding: 80px;
+
+    .yellow {
+      color: $yellow;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .lines {
+    padding: 80px;
+    display: flex;
+    gap: 10px;
+
+    .line {
+      border-bottom: 4px solid $white;
+      opacity: 0.16;
+      width: 80px;
+    }
+
+    .active {
+      border-bottom: 4px solid yellow;
+      opacity: 1;
+      width: 80px;
+    }
+  }
+
+  .shop_now {
+    color: $white;
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px solid $white;
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+
+    span {
+      font-family: 'Montserrat-Regular';
+      padding: 12px 18px;
+    }
+
+    .icon {
+      background: $white;
+      padding: 11px;
+    }
+  }
+}
