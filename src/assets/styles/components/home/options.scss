@@ -1,0 +1,41 @@
+.options {
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+
+  .card1 {
+    background: url("../../../images/shopping_frame.svg");
+  }
+
+  .card2{
+    background: url("../../../images/telephone.svg");
+  }
+
+  .card3{
+    background: url("../../../images/whatsapp.svg");
+  }
+
+  .card4{
+    background: url("../../../images/quality_assurance.svg");
+  }
+
+  .card1, .card2, .card3, .card4 {
+    width: 346px;
+    height: 160px;
+
+    .details {
+      padding: 90px 0 20px 30px;
+
+      .main {
+        font-family: 'Montserrat-Bold';
+        font-size: 16px;
+      }
+
+      .support {
+        font-family: 'Montserrat-Regular';
+        font-size: 12px;
+      }
+    }
+  }
+}

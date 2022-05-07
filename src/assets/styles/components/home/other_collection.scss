@@ -1,0 +1,44 @@
+@import "../../colors";
+
+.other_collection {
+  padding: 80px;
+
+  .title {
+    padding-bottom: 80px;
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 32px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    
+    .card {
+      img {
+        object-fit: contain;
+      }
+
+      .details {
+        margin-top: -3.5rem;
+        display: flex;
+        justify-content: space-between;
+        background: rgba(17, 17, 18, 0.4);
+        backdrop-filter: blur(16px);
+  
+        p {
+          font-family: 'Montserrat-Bold';
+          font-size: 16px;
+          color: $white;
+          padding: 17px;
+        }
+  
+        button {
+          background: #F9DC38;
+          border: none;
+          padding: 16px 22px;
+        }
+      }
+    }
+  }
+}

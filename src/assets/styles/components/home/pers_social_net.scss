@@ -1,0 +1,54 @@
+@import "../../colors";
+
+.pers_social_net {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+
+  .card1 {
+    background: linear-gradient(to right, #111112 0%, rgba(17, 17, 18, 0) 100%), url("../../../images/personalization.svg") no-repeat top center;
+  }
+
+  .card2 {
+    background: linear-gradient(to right, #111112 0%, rgba(17, 17, 18, 0) 100%), url("../../../images/social_networks.svg") no-repeat top center;
+  }
+
+  .card1, .card2 {
+    height: 400px;
+    width: 656px;
+    position: relative;
+
+    .details {
+      position: absolute;
+      bottom: 0;
+      padding: 40px;
+      color: $white;
+
+      .title {
+        font-family: 'Montserrat-Bold';
+        font-size: 24px;
+        padding-bottom: 24px;
+        text-transform: uppercase;
+      }
+
+      .text {
+        font-family: 'Montserrat-Regular';
+        font-size: 16px;
+
+        strong {
+          font-family: 'Montserrat-Bold';
+        }
+      }
+
+      .icons {
+        display: flex;
+        gap: 8px;
+        padding-top: 24px;
+
+        .icon {
+          background-color: $white;
+        }
+      }
+    }
+  }
+}

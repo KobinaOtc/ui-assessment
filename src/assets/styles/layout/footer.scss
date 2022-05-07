@@ -1,4 +1,77 @@
+@import "../colors";
+
 .footer {
-  position: fixed;
-  bottom: 0;
+  background-color: $grey_footer;
+  padding: 80px 80px 0 80px;
+
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+
+    .column {
+
+      .title {
+        font-family: 'Montserrat-Bold';
+        font-size: 16px;
+        padding-bottom: 24px;
+      }
+
+      ul {
+        list-style: none;
+
+        li {
+        font-family: 'Montserrat-Regular';
+        font-size: 14px;
+        padding-bottom: 16px;
+
+        a {
+          text-decoration: none;
+          color: $black;
+
+          &:hover {
+            font-family: 'Montserrat-Bold';
+          }
+        }
+        }
+      }
+    }
+
+    .email-container {
+      
+      input {
+        background-color: $white;
+        border: none;
+        padding: 10px;
+        height: 40px;
+        width: 240px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      button {
+        border: none;
+        background: #F9DC38;
+        height: 40px;
+        width: 40px;
+      }
+    }
+
+    .icons {
+      display: flex;
+      gap: 8px;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat-Regular';
+    font-size: 12px;
+    border-top: 1px solid #EAEAEC;
+    padding: 32px 0;
+  }
 }
