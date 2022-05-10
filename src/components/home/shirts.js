@@ -15,9 +15,9 @@ const Shirts = () => {
         </div>
       </div>
       
-      <div class="content">
-        <ul class="hs full no-scrollbar">
-          <li class="item">
+      <div className="content">
+        <ul className="hs full no-scrollbar">
+          <li className="item">
             <div className="card">
               <div className="image-container">
                 <img src={RedShirt} alt="shirt" className="image" />
@@ -29,7 +29,7 @@ const Shirts = () => {
               </div>
             </div>
           </li>
-          <li class="item">
+          <li className="item">
             <div className="card">
               <div className="image-container">
                 <img src={RedShirt} alt="shirt" className="image" />
@@ -41,7 +41,7 @@ const Shirts = () => {
               </div>
             </div>
           </li>
-          <li class="item">
+          <li className="item">
             <div className="card">
               <div className="image-container">
                 <img src={RedShirt} alt="shirt" className="image" />
@@ -53,7 +53,7 @@ const Shirts = () => {
               </div>
             </div>
           </li>
-          <li class="item">
+          <li className="item">
             <div className="card">
               <div className="image-container">
                 <img src={RedShirt} alt="shirt" className="image" />
@@ -65,7 +65,7 @@ const Shirts = () => {
               </div>
             </div>
           </li>
-          <li class="item">
+          <li className="item">
             <div className="card">
               <div className="image-container">
                 <img src={RedShirt} alt="shirt" className="image" />
@@ -77,7 +77,7 @@ const Shirts = () => {
               </div>
             </div>
           </li>
-          <li class="item">
+          <li className="item">
             <div className="card">
               <div className="image-container">
                 <img src={RedShirt} alt="shirt" className="image" />
@@ -89,7 +89,7 @@ const Shirts = () => {
               </div>
             </div>
           </li>
-          <li class="item">
+          <li className="item">
             <div className="card">
               <div className="image-container">
                 <img src={RedShirt} alt="shirt" className="image" />
@@ -101,7 +101,7 @@ const Shirts = () => {
               </div>
             </div>
           </li>
-          <li class="item">
+          <li className="item">
             <div className="card">
               <div className="image-container">
                 <img src={RedShirt} alt="shirt" className="image" />
