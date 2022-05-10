@@ -12,7 +12,7 @@ const CountyLeagues = () => {
       <p className="title">Country Leagues</p>
       <div className="content">
         <div className="card">
-          <img src={CLImage} alt="football_image" className="image" />
+          <img src={CLImage} alt="football_image" className="image"/>
           <p className="title">Champions League</p>
         </div>
 

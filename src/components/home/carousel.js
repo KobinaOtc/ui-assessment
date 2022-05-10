@@ -7,7 +7,7 @@ const Carousel = () => {
     <>
       <div className="home-carousel">
         <div>
-          <p className="title">Your favorite customized <br />
+          <p className="title">Your favorite customized
             <span className="yellow">Club Jerseys.</span>
           </p>
         </div>

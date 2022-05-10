@@ -1,6 +1,6 @@
 .country_leagues {
   padding: 80px;
-
+  
   .title {
     padding-bottom: 80px;
     font-family: 'Montserrat-ExtraBold';
@@ -10,10 +10,43 @@
   .content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+    .card {
+
+      .image {
+        width:100%; 
+        object-fit: contain;
+      }
+    }
 
     .title {
       font-size: 16px;
       padding-top: 16px;
+    }
+  }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .country_leagues {
+    padding: 0 !important;
+    padding-left: 16px !important;
+    
+    .title {
+      padding-bottom: 20px !important;
+    }
+
+    .content {
+      
+      .card {
+        width:49%; 
+        overflow: hidden;
+
+        .image {
+          object-fit: contain;
+          overflow: hidden;
+        }
+      }
     }
   }
 }

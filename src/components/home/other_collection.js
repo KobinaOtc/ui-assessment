@@ -34,8 +34,6 @@ const OtherCollection = () => {
             <button className="arrow_button"><RightArrow /></button>
           </div>
         </div>
-      </div>
-      <div className="content">
         <div className="card">
           <img src={Pro_PlayerImage} alt="kids" />
           <div className="details">

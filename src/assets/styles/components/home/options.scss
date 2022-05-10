@@ -1,11 +1,14 @@
 .options {
   padding: 0 40px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 2rem;
+  gap: 40px;
 
   .card1 {
     background: url("../../../images/shopping_frame.svg");
+    object-fit: contain;
   }
 
   .card2{
@@ -36,6 +39,30 @@
         font-family: 'Montserrat-Regular';
         font-size: 12px;
       }
+    }
+  }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .options {
+    padding: 0 15px;
+    gap: 5px !important;
+  }
+
+  .card1, .card2, .card3, .card4 {
+    width: 49% !important;
+    height: 120px !important;
+  }
+
+  .options .details {
+    padding-top: 75px !important;
+
+    .main {
+      font-size: 14px !important;
+    }
+
+    .support {
+      font-size: 10px !important;
     }
   }
 }

@@ -52,6 +52,8 @@
     }
   
     .advert {
+      white-space: nowrap;
+      overflow-x: auto;
       font-family: 'Montserrat-Regular';
       font-size: 11px;
       text-transform: uppercase;
@@ -81,14 +83,14 @@
   
   .layer-two {
     display: flex;
-    margin-left: 10%;
+    margin-left: 7%;
     justify-content: flex-end;
     border-bottom: 2px solid $grey_border;
-    width: 90vw;
   
     .categories-search {
       display: flex;
-  
+      width: calc(93%);
+
       .categories {
         display: flex;
         align-items: center;
@@ -97,15 +99,21 @@
         padding-right: 25px;
         border-right: 2px solid $grey_border;
         gap: 8px;
+        min-width: fit-content;
+        width: 10%;
       }
   
       .search {
         padding-left: 24px;
-  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+
         input {
-          width: 57vw;
           border: none;
           padding: 20px 0;
+          width: 100%;
   
           &::placeholder {
             font-family: 'Montserrat-Regular';
@@ -120,7 +128,8 @@
         button {
           border: none;
           background: transparent;
-  
+          display: flex;
+
           .text {
             background-color: $yellow;
             padding: 13px;
@@ -128,7 +137,7 @@
   
           .icon {
             background-color: $black;
-            padding: 13px;
+            padding: 12px;
           }
         }
       }
@@ -195,5 +204,66 @@
 
     }
   }
+
+  .mobile {
+    display: none;
+  }
 }
 
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .yellow-box-two {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 0 !important;
+  }
+
+  .header .advert {
+    // height: 24px !important;
+    display: inline-block !important;
+    padding-left: 10px !important;
+  }
+
+  .header .whatsapp-container {
+    width: fit-content !important;
+    padding: 0 10px !important;
+  }
+
+  .header .layer-one .m-hide {
+    display: none;
+  }
+
+  .layer-two, .layer-three {
+    display: none !important;
+  }
+
+  .mobile {
+    display: flex !important;
+    justify-content: space-between;
+    padding: 32px 20px;
+
+    .left, .right {
+      display: flex;
+      gap: 30px;
+    }
+
+    .right .profile-dropdown {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+    }
+  }
+}
+
+@media only screen and (max-width : 965px) {
+  .layer-three {
+    gap: 30px !important;
+  }
+}
+
+@media only screen and (max-width : 783px) {
+  .layer-three .item {
+    font-size: 10px !important;
+  }
+}

@@ -129,3 +129,20 @@
   }
 }
 
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .home-shirts {
+    padding-top: 10px !important;
+
+    .content {
+      padding: 0 !important;
+    }
+  }
+  .home-shirts .heading{
+    padding: 0 16px !important;
+
+    .title {
+      font-size: 24px !important;
+    }
+  }
+}
+

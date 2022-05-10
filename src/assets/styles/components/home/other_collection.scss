@@ -12,10 +12,13 @@
   .content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-bottom: 30px;
     
     .card {
+      margin-bottom: 4vh;
       img {
+        width:100%;
         object-fit: contain;
       }
 
@@ -40,5 +43,48 @@
         }
       }
     }
+  }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .other_collection {
+    padding: 16px;
+  
+    .title {
+      padding-bottom: 16px;
+      font-family: 'Montserrat-ExtraBold';
+      font-size: 32px;
+    }
+
+    .content {
+      gap: 10px;
+
+      .card {
+         width: 48%;
+         margin-bottom: 0.7vh;
+
+         .details {
+          margin-top: -1.5rem;
+           p {
+             padding: 5px;
+             font-size: 10px;
+           }
+
+           button {
+             padding: 0 15px;
+           }
+         }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width : 690px) and (max-width : 1024px) {
+  .other_collection .content .details {
+    margin-top: -2.9rem !important;
+  }
+  .other_collection .content .details p {
+    font-size: 10px !important;
+    padding-left: 8px !important;
   }
 }
