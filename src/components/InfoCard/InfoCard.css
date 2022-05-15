@@ -1,0 +1,58 @@
+.info-card {
+  background: #fefae1;
+  height: 160px;
+  width: 100%;
+}
+
+.cuboid {
+  position: relative;
+  height: 70px;
+  width: 72px;
+}
+
+.cube {
+  position: absolute;
+  background: greenyellow;
+}
+
+.square {
+  bottom: 3px;
+  right: 0;
+  height: 40px;
+  width: 40px;
+  background-color: #f8d307;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  left: 16px;
+  transform: skew(50deg, 0);
+  height: 27px;
+  width: 40px;
+  background-color: rgb(249, 220, 57, 0.16);
+}
+
+.left {
+  top: 13px;
+  transform: skew(0, 40deg);
+  height: 40px;
+  width: 32px;
+  background-color: #f8d30766;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 32px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.desc {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 32px;
+}

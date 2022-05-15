@@ -1,0 +1,45 @@
+.image-card {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin-bottom: 22px;
+  background-size: cover;
+}
+
+.overlay-image {
+  background-color: #111112;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.image-card .text-content {
+  position: absolute;
+  bottom: 40px;
+  padding: 0 40px;
+}
+
+.card-header {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.card-description,
+.card-extras {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.card-description,
+.card-header {
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 600px) {
+}

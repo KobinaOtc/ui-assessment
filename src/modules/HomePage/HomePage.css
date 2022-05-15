@@ -1,0 +1,173 @@
+.content {
+  padding: 40px;
+}
+
+.heroText {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.heroText div:first-of-type {
+  color: #ffffff;
+}
+
+.heroText div:last-of-type {
+  color: #f8d307;
+}
+
+.info-cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.info-cards > div {
+  flex-basis: 24%;
+}
+
+.rewards {
+  position: absolute;
+  left: 0;
+  margin-top: 24px;
+}
+
+.popular .product-listing {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.other-collection,
+.popular,
+.country-league {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.collection-title,
+.popular-header-container,
+.league-header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.collection-title,
+.popular-header,
+.league-header {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.league-listing {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.league-listing > div {
+  flex-basis: 19%;
+}
+
+.controls {
+  display: flex;
+}
+
+.controls > div {
+  border: 1px solid #eaeaec;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls > div:first-of-type {
+  margin-right: 8px;
+}
+
+.image-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.other-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.other-posts > div {
+  flex-basis: 31%;
+  height: 240px;
+}
+
+.other-posts .card-extras {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.other-posts .other-bottom {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.other-posts .image-card .text-content {
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.other-posts .other-bottom .caret-right {
+  height: 100%;
+  width: 48px;
+  background-color: #f9dc38;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.other-posts .other-bottom .text {
+  color: #ffffff;
+  background: rgba(17, 17, 18, 0.4);
+  backdrop-filter: blur(16px);
+  flex-basis: calc(100% - 48px);
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 601px) {
+  .image-cards > div {
+    flex-basis: 49%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .other-posts > div {
+    flex-basis: 48%;
+  }
+  .image-cards {
+    flex-direction: column;
+  }
+  .content {
+    padding: 16px;
+  }
+  .info-cards {
+    padding: 0px;
+  }
+  .info-cards > div {
+    flex-basis: 48%;
+    min-width: 175px;
+    margin-bottom: 15px;
+  }
+  .league-listing > div {
+    flex-basis: 48%;
+  }
+}

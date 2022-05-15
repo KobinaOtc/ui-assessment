@@ -1,0 +1,51 @@
+.notification-bar {
+  display: flex;
+  background-color: #111112;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+
+.language {
+  color: white;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.language span,
+.chat-btn span {
+  color: white;
+  margin: 0 6px;
+}
+
+.language span,
+.sale,
+.chat-btn {
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.sale {
+  color: #ffffffcc;
+}
+
+.chat-btn {
+  background-color: #27b03f;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 208px;
+  height: 100%;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.chat-btn span {
+  color: #ffffff;
+}

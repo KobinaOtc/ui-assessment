@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths":{
+        "_Home": ["./*"],
+        "_Assets": ["./assets/*"],
+        "_Images": ["./assets/img/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

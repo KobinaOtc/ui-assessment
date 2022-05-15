@@ -1,0 +1,30 @@
+.league img {
+  width: 257px;
+  height: 257px;
+  margin-bottom: 16px;
+}
+
+.league .name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.league {
+  padding: 3px;
+  margin-bottom: 44px;
+}
+
+.league-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .league img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 16px;
+  }
+}
