@@ -1,3 +1,5 @@
 .product-list {
   display: flex;
+  height: 380px;
+  align-items: center;
 }
