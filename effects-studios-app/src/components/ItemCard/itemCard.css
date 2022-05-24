@@ -1,0 +1,17 @@
+.itemCardSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardStyles {
+    background-color: #fff9d3;
+}
+
+.cardStyles img {
+    max-width: 80px;
+}
+
+.cardText {
+    padding-bottom: 32px;
+    padding-top: 12px;
+}

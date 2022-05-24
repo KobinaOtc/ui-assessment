@@ -1,0 +1,33 @@
+.collectionItem {
+    height: 240px;
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 429px;
+
+}
+
+.collectionImage {
+    position: absolute;
+    z-index: -3;
+}
+
+.blurBtmBar {
+    height: 48px;
+    background: rgba(17, 17, 18, 0.4);
+    backdrop-filter: blur(16px);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.collectionText {
+    align-self: center;
+    padding-left: 24px;
+    color: #fff;
+}
+
+.actionBtn {
+    background-color: #F9DC38;
+    width: 48px;
+}

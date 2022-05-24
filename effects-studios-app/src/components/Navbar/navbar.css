@@ -1,0 +1,39 @@
+
+/* top nav styles start */
+.navLanguage {
+    background-color: rgba(255, 255, 255, 0.08);
+    min-width: 160px;
+}
+
+.gridStyles {
+    background-color: #111112;
+    width: 100%;
+    height: 32px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topNavInfo {
+    width: auto;
+}
+
+.navChatInfo {
+    background-color: #27B03F;
+    /* max-width: 208px; */
+    height: 32px;
+}
+/* top nav styles end */
+
+/* bottom nav styles start */
+
+.navItemsContainer {
+    display: flex;
+}
+
+.yellowBox {
+    min-width: 160px;
+    background-color: #F9DC38;
+}
+
+/* bottom nav styles end */

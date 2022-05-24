@@ -1,0 +1,22 @@
+.imgIndex {
+    z-index: -3;
+    position: absolute;
+    height: 400px;
+}
+
+.imageHighlightStyles {
+    background-color: rgba(56, 56, 56, 0.4);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.constraints {
+    width: 656px;
+    display: flex;
+}
+
+.highlightTexts {
+    color: #fff;
+}
