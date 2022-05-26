@@ -2,7 +2,16 @@
 /* top nav styles start */
 .navLanguage {
     background-color: rgba(255, 255, 255, 0.08);
-    min-width: 160px;
+    max-width: 160px;
+}
+
+.textAlignment {
+    display: flex;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 55px;
+    padding-right: 55px;
 }
 
 .gridStyles {
@@ -36,4 +45,42 @@
     background-color: #F9DC38;
 }
 
+.txtStylesOne {
+    font-size: 12px;
+}
+
+.navSearchContent {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputIcon {
+    display: flex;
+    align-items: center;
+}
+
+.searchBtn {
+    background-color: #F9DC38;
+    height: 40px;
+    display: flex;
+    min-width: 120px;
+    align-items: center;
+    padding-left: 20px;
+    justify-content:space-between
+}
+
+.searchBtnIcon {
+    background-color: #000;
+    height: 100%;
+    padding: 13px;
+}
+
+.navElements {
+    padding-left: 40px;
+    padding-right: 476px;
+    padding-bottom: 40px;
+}
 /* bottom nav styles end */

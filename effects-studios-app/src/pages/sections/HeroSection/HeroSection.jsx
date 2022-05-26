@@ -1,11 +1,13 @@
 import React from 'react'
+import Carousel from '../../../components/Carousel/Carousel'
 import ItemCard from '../../../components/ItemCard/ItemCard'
 import './heroSection.css'
 
 const HeroSection = () => {
   return (
     <div className='container mx-auto'>
-        <img className='heroImg' src={require("../../../assets/hero.jpg")} alt="" />
+      <Carousel />
+        {/* <img className='heroImg' src={require("../../../assets/hero.jpg")} alt="" /> */}
         <div className='itemCardSection'>
           <div>
             <ItemCard
