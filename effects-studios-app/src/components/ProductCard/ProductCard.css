@@ -1,0 +1,22 @@
+.price {
+    margin: 0 !important;
+    padding-right: 8px;
+    font-size: 20px;
+}
+
+.discount-price {
+    font-size: 12px;
+    text-decoration-line: line-through;
+    color: #EE503E;
+}
+
+.discount-percentage {
+    padding: 4px 8px;
+    background-color: #23C353;
+    color: #fff;
+    max-width: 63px;
+    font-size: 10px;
+    margin-left: 16px;
+    position: absolute;
+    margin-top: -37px;
+}

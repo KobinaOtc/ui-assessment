@@ -7,7 +7,9 @@ const CollectionCard = ({imageUrl, labelDesc}) => {
         <div className='collectionItem'>
             <img className='collectionImage' src={imageUrl} alt='' />
             <div className='blurBtmBar'>
-                <div className='actionBtn'></div>
+                <div className='actionBtn'>
+                  <img src={require('../../assets/icons/png/right-black.png')} alt="" />
+                </div>
                 <div className='collectionText'>
                     <p>{labelDesc}</p>
                 </div>

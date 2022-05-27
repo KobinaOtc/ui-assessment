@@ -10,6 +10,8 @@
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
+    padding-left: 40px;
+    padding-bottom: 40px;
 }
 
 .constraints {
@@ -19,4 +21,21 @@
 
 .highlightTexts {
     color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 112px;
+}
+
+.social-icons div {
+    min-height: 32px;
+    min-width: 32px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    /* padding: 13px; */
+    align-items: center;
+    align-self: center;
 }

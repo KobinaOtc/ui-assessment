@@ -5,18 +5,16 @@ const ImageHieghlightSection = () => {
   return (
     <div className='sectionStyles container mx-auto'>
         <div>
-          <h1>Popular</h1>
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <div>
                 <ImageHieghlight imageUrl={require('../../../assets/personalization.jpg')} title='Personalization' 
-                    desc='Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquid porro eius molestiae aliquam totam 
-                    architecto ea voluptatem quod! Suscipit, atque dolor fugit voluptatum laboriosam magni ipsum perspiciatis a ipsam?' />
+                    desc={`Put a custom print on the football shirt of your choice with our Personalization service.`} 
+                    highlight='Tell us what name, what number and we put it. FREE!!!' />
             </div>
             <div style={{ paddingLeft: '40px' }}>
-                <ImageHieghlight imageUrl={require('../../../assets/social-networks.jpg')} title='Personalization'
-                    desc='Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquid porro eius molestiae aliquam totam 
-                    architecto ea voluptatem quod! Suscipit, atque dolor fugit voluptatum laboriosam magni ipsum perspiciatis a ipsam?' />
+                <ImageHieghlight imageUrl={require('../../../assets/social-networks.jpg')} title='Social networks'
+                    desc='Share your shirts with us with the #CamisetasFutbolSpainnn' social={true} />
             </div>
         </div>
     </div>

@@ -2,4 +2,23 @@
     background-color: #F5F5F6;
     padding-top: 80px;
     padding-bottom: 110px;
+    padding-left: 80px;
+}
+
+.send-btn {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F9DC38;
+}
+
+.send-btn img {
+    height: 12px;
+    width: 12px;
+    align-self: center;
+}
+
+.links {
+    text-decoration: none;
 }
