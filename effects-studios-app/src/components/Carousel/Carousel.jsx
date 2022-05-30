@@ -28,16 +28,18 @@ const Carousel = ({imageUrl}) => {
                 ></button>
             </div>
             <div className="carousel-inner relative w-full overflow-hidden">
-                <div className="carousel-item active relative float-left w-full">
-                <img
-                    src={require('../../assets/hero.jpg')}
-                    className="block w-full"
-                    alt="..."
-                />
-                <div className="carousel-caption hidden md:block absolute text-center">
-                    <h5 className="text-xl">First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                </div>
+                <div className="carousel-item active relative float-left w-full gradient-adj">
+                    {/* <img
+                        src={require('../../assets/hero.jpg')}
+                        className="block w-full index-img"
+                        alt="..."
+                    /> */}
+                    <div className='txt-carousel'>
+                        <div className="carousel-caption hidden md:block">
+                            <h5 className="text-xl">First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
                 </div>
                 <div className="carousel-item relative float-left w-full">
                 <img
@@ -62,7 +64,7 @@ const Carousel = ({imageUrl}) => {
                 </div>
                 </div>
             </div>
-            <button
+            {/* <button
                 className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
                 type="button"
                 data-bs-target="#carouselExampleCaptions"
@@ -79,7 +81,7 @@ const Carousel = ({imageUrl}) => {
             >
                 <span className="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
-            </button>
+            </button> */}
         </div>
     </div>
   )

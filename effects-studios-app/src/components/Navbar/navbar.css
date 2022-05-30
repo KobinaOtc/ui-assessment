@@ -32,6 +32,18 @@
     /* max-width: 208px; */
     height: 32px;
 }
+.custom {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.padding-control {
+    padding-top: 0 !important;
+}
+
+.padding-control-nxt {
+    padding-top: 13px !important;
+}
 /* top nav styles end */
 
 /* bottom nav styles start */
