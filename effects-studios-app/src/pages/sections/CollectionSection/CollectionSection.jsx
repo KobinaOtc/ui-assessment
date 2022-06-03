@@ -43,7 +43,7 @@ const CollectionSection = () => {
         <div>
           <h2 style={{ paddingBottom: '80px' }}>Other Collections</h2>
         </div>
-        <div className='grid grid-cols-3'>
+        <div className='sectionItemStyles'>
 
           {
             collectionData.map((item) => {

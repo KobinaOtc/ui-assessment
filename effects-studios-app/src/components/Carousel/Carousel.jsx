@@ -29,11 +29,6 @@ const Carousel = ({imageUrl}) => {
             </div>
             <div className="carousel-inner relative w-full overflow-hidden">
                 <div className="carousel-item active relative float-left w-full gradient-adj">
-                    {/* <img
-                        src={require('../../assets/hero.jpg')}
-                        className="block w-full index-img"
-                        alt="..."
-                    /> */}
                     <div className='txt-carousel'>
                         <div className="carousel-caption hidden md:block">
                             <h5 className="text-xl">First slide label</h5>

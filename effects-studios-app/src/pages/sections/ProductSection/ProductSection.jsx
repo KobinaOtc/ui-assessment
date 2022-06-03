@@ -63,7 +63,7 @@ const ProductSection = () => {
         <div>
           <h2 style={{ paddingBottom: '80px' }}>MOST POPULAR T-SHIRTS</h2>
         </div>
-        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }}>
           { productData.map((item) => (
             <div key={item.id}>
               {console.log(item.imageUrl)}

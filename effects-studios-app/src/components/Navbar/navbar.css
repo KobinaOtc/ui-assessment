@@ -96,3 +96,14 @@
     padding-bottom: 40px;
 }
 /* bottom nav styles end */
+
+
+/* media queries */
+
+@media all and (max-width: 1176px) {
+    .yellowBox {
+        display: none;
+    }
+}
+
+/* media queries */

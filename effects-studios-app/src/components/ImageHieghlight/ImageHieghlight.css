@@ -1,11 +1,19 @@
 .imgIndex {
     z-index: -3;
     position: absolute;
-    height: 400px;
+    /* height: 400px; */
+}
+
+
+.image-one {
+    background-image: linear-gradient(to right, #111112 2%, rgba(17, 17, 18, 0.5)), url('../../assets/personalization.jpg');
+}
+
+.image-two {
+    background-image: linear-gradient(to right, #111112 2%, rgba(17, 17, 18, 0.5)), url('../../assets/social-networks.jpg');
 }
 
 .imageHighlightStyles {
-    background-color: rgba(56, 56, 56, 0.4);
     height: 400px;
     width: 100%;
     display: flex;
@@ -15,7 +23,7 @@
 }
 
 .constraints {
-    width: 656px;
+    width: 630px;
     display: flex;
 }
 

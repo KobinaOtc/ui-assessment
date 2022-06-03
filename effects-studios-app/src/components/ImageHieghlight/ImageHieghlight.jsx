@@ -3,6 +3,8 @@ import './ImageHieghlight.css'
 
 const ImageHieghlight = ({imageUrl, title, desc, social, highlight}) => {
 
+    const imageInfo = imageUrl === 'image-one' ? 'image-one' : 'image-two';
+
     const check = () => {
 
         if (social) {
@@ -25,8 +27,7 @@ const ImageHieghlight = ({imageUrl, title, desc, social, highlight}) => {
 
   return (
     <div className='constraints'>
-        <img className='imgIndex' src={imageUrl} alt="" />
-        <div className='imageHighlightStyles'>
+        <div className={`imageHighlightStyles ${imageInfo}`}>
             <div className='highlightTexts'>
                 <h3>
                     {title}

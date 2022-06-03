@@ -8,7 +8,7 @@
 
 .gradient-adj {
     background-image:
-    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    linear-gradient(to right, #111112 0%, rgba(17, 17, 18, 0)),
     url('../../assets/hero.jpg');
     width: 80%;
     height: 400px;
